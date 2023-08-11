@@ -36,8 +36,8 @@ void printVector(vector<int> &v)
 
 int main()
 {
-    vector<int> v = {7,3};
-    vector<int> a = twoSum(v, 6);
+    vector<int> v = {2,7,11,15};
+    vector<int> a = twoSum(v, 9);
     printVector(a);
     // cout << 5%9<<endl;
 }
